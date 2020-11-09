@@ -1,2 +1,3 @@
 # sensebox-examples
-senseBox examples for Arduino andor Blockly
+
+senseBox examples for Arduino and Blockly
