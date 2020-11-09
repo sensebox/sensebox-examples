@@ -9,18 +9,22 @@ The CO2 traffic light can be programmed with Blockly for senseBox. An assembly i
 
 ## Source Code
 
-The Source Code can be found in this repository. For the Arduino Source code install the [Board Support Package](https://github.com/sensebox/senseBoxMCU-core/tree/master/arduino) and [Sparkfun SCD30 Library](https://github.com/sparkfun/SparkFun_SCD30_Arduino_Library). As alternative you can use [Blockly for senseBox](https://blockly.sensebox.de/ardublockly/?board=sensebox-mcu) without any software installation in your browser!
+The Source Code can be found in this repository. For the Arduino Source code install the [Board Support Package](https://github.com/sensebox/senseBoxMCU-core/tree/master/arduino) and [Sparkfun SCD30 Library](https://github.com/sparkfun/SparkFun_SCD30_Arduino_Library).
 
 - [01_Raw_Data](https://github.com/sensebox/sensebox-examples/tree/main/co2-traffic-light/01_Raw_Data)
 - [02_Average](https://github.com/sensebox/sensebox-examples/tree/main/co2-traffic-light/02_Average)
 
+ As an alternative you can use [Blockly for senseBox](https://blockly.sensebox.de/ardublockly/?board=sensebox-mcu) without any software installation in your browser!
+
+- [01_Raw_Data](https://blockly.sensebox.de/ardublockly/index.html?board=sensebox-mcu&gallery=projects/co2_traffic_light_raw)
+- [02_Average](https://blockly.sensebox.de/ardublockly/index.html?board=sensebox-mcu&gallery=projects/co2_traffic_light_avg)
 
 ## Technical details
 - senseBox MCU lite
 - senseBox WS2812 RGB LED
 - senseBox CO2 Sensor (Sensirion SCD30)
 - senseBox OLED
-- lasergeschnittenes Acrylgehäuse
+- laser-cut acrylic housing
 - 5m USB Cable
 - USB Power Supply
 
