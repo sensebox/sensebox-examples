@@ -11,8 +11,10 @@ with senseBox MCU, SCD30(I2C), OLED-Display (I2C), RGB LED (digital A)
 #include <Adafruit_NeoPixel.h>
 #include <SparkFun_SCD30_Arduino_Library.h>
 
-#define OLED_RESET 4
-Adafruit_SSD1306 display(OLED_RESET);
+#define SCREEN_WIDTH 128
+#define SCREEN_HEIGHT 64
+#define OLED_RESET -1
+Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
 SCD30 airSensor;
 uint16_t scd30_co2;
